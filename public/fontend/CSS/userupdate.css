@@ -1,0 +1,18 @@
+.card-header {
+    background-color: #A87CA9;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    padding-left: 140px;
+    padding-right: 70px;
+    
+}
+.card-body {
+    background-color: #f8f9fa;
+    
+}
+/* Thêm hiệu ứng khi hover vào nút submit */
+.btn btn-primary {
+    background-color: #0069d9;
+    
+}

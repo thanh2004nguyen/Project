@@ -1,0 +1,336 @@
+/* *small address bar* */
+
+.address-container{
+    position: relative;
+    background-color: #5D9DD8;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 63px;
+    top: -15px;
+    color: white;
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+}
+.address{
+    padding-left: 20px;
+}
+.address a, .address-container a{
+    text-decoration: none;
+    color: white;
+}
+
+/* !First row */
+.page-first-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1em;
+    margin-left: 63px;
+    margin-right: 63px;
+    /* background-color: blue; */
+}
+.page-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.page-title hr {
+    margin-top: 0;
+    height: 3px;
+    width: 30%;
+    border-width:0;
+    background-color:#da1add;
+    opacity: 1;
+    line-height: 0;
+    
+}
+
+/* !cart-table */
+#cart-table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#cart-table thead {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.75em;
+    font-weight: 600;
+}
+
+#cart-table thead td {
+    background-color: #e2f3df; /* Màu nền cho phần đầu bảng */
+    color: #326238; /* Màu chữ cho phần đầu bảng */
+    border: none;
+    padding: 15px 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+#cart-table tbody {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+
+#cart-table tbody tr td {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    height: 7.5rem;
+}
+
+
+
+#cart-table td {
+    border: 1px solid #B6B3B3;
+    text-align: center;
+}
+
+#cart-table td:nth-child(1) {
+    width: 30%;
+}
+
+#cart-table td:nth-child(2) {
+    width: 40%;
+}
+
+#cart-table tbody td:nth-child(2) {
+    text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2em;
+    color: #5F64EB;
+    text-transform: capitalize;
+}
+/* Thêm các kiểu cho hình ảnh */
+.cart-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cart-image img {
+    max-width: 200px; /* Đặt kích thước tối đa cho hình ảnh */
+    height: auto; /* Đảm bảo tỷ lệ khung hình */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Thêm đổ bóng */
+    border-radius: 5px; /* Bo góc cho hình ảnh */
+}
+.discount-due {
+    font-weight: 300;
+    color: red;
+}
+#cart-table td:nth-child(3) {
+    width: 10%;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+#cart-table tbody td:nth-child(3) {
+    font-family: 'Inder', sans-serif;
+    color: #1f975b;
+}
+#cart-table td:nth-child(4) {
+    width: 15%;
+    /* display: flex; */
+}
+.cart-quantity {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    border-radius: 5px;
+    border: solid #5D9DD8 2px;
+}
+/* .cart-table-button {
+    display: flex;
+} */
+#cart-table td:nth-child(5) {
+    width: 15%;
+}
+.cart-action {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* !What would you like to do next */
+.basic-container {
+    border: solid #D9D9D9;
+    background-color: #f2faf2	;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    color: black;
+    font-weight: 500;
+
+}
+.basic-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    padding-top: 1em;
+}
+.basic-title hr{
+    color: white;
+    opacity: 1;
+}
+.do-next-first-row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #0762B7;
+}
+.do-next-section, .do-next-title, .minus-icon {
+    cursor: pointer;
+}
+.gift-check {
+    line-height: 2.5rem;
+}
+.grey-hr {
+    padding-top: 0.5rem;
+    padding-bottom: 0rem;
+}
+.get-quote-area {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 0.75em;
+    padding-right: 0.5rem;
+    border: solid #DEDEDE;
+    border-radius: 5px;
+    height: 3.35rem;
+    width: 98%;
+    background-color: white;
+}
+.get-quote-btn {
+    background-color: #f9fdf8;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 2.25rem;
+}
+#city-select {
+    width: 100%;
+}
+#city-select td:nth-child(1) {
+    width: 40%;
+}
+#city-select td:nth-child(2) {
+    width: 60%;
+}
+#state {
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    height: 2rem;
+    padding-left: 1rem;
+}
+
+/* !Total-Bill table */
+#cart-total-table {
+    margin-top: 1rem;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+#cart-total-table tr, #cart-total-table td {
+    border: solid #E0DCDC 2px;
+    height: 3rem;
+}
+#cart-total-table tr:nth-child(1), #cart-total-table tr:nth-child(2) {
+    background-color: white;
+}
+#cart-total-table td:nth-child(1) {
+    font-weight: bold;
+    text-align: right;
+    padding-right: 1rem;
+}
+#cart-total-table td:nth-child(2) {
+    font-weight: 400;
+    text-align: right;
+    padding-right: 1rem;
+}
+
+.alert-content {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* !Continue Shopping or Checkout */
+.continue-check-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border: solid #DEDEDE;
+    border-radius: 5px;
+    height: 3.35rem;
+    width: 100%;
+    background-color: white;
+}
+.continue-btn {
+    background-color: #227a28;
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 2.25rem;
+}
+.continue-btn a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.get-quote-btn a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.cart-update-button {
+    background-color: #4caf50; /* Màu nền xanh lá cây */
+    border: none;
+    border-radius: 5px;
+    color: white; /* Màu chữ trắng */
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền */
+}
+
+.cart-update-button:hover {
+    background-color: #206423; /* Màu nền xanh lá cây khi hover */
+}
+
+.cart-delete-button {
+    background-color: white; /* Màu nền trắng */
+    border: 1px solid #ccc; /* Viền mảnh */
+    border-radius: 5px;
+    color: #333; /* Màu chữ đậm */
+    padding: 6px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Hiệu ứng chuyển đổi màu nền và màu chữ */
+}
+
+.cart-delete-button:hover {
+    background-color: #fff; /* Màu nền trắng khi hover */
+    color: #FF6B6B; /* Màu chữ đậm khi hover */
+    border: 1px solid #FF6B6B; /* Viền mảnh khi hover */
+}
+#cart-table tbody tr:hover {
+    background-color: #FDF4E9; /* Màu nền sáng khi hover */
+}
